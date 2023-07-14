@@ -1,0 +1,157 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-color: #333;
+    padding: 10px 80px;
+}
+  
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+  
+.logo img {
+    height: 50px;
+    border-radius: 10px;
+}
+
+.links a {
+    margin-right: 30px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.links a:hover {
+    color: #80ffd4;
+}
+
+.btn{
+    height: 40px;
+    border-radius: 10px !important;
+    background-color: #80ffd4 !important;
+    padding: 7px;
+}
+
+.btn:hover{
+    background-color: #333 !important ;
+    border: 2px solid #80ffd4 !important;
+    color:#80ffd4 !important;
+}
+
+.profile{
+    background-color:#333;
+    padding:50px 20px;
+}
+
+.profile-image{
+    height: 500px;
+    width: 400px;
+}
+
+.profile-detail{
+    margin-top: 40px !important;
+}
+
+.profile-detail h1{
+    font-size: 4.5rem;
+    display: inline-block;
+    background: linear-gradient(to right, white 10%, #80ffd4 50%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.profile-detail p{
+    color: antiquewhite;
+}
+
+.btn-cv{
+    height: 45px;
+    border-radius: 10px !important;
+    background-color: #333 !important;
+    border:2px solid #80ffd4;
+    width: fit-content;
+    padding: 7px;
+}
+
+.btn-cv:hover{
+    background-color: #80ffd4!important ;
+}
+
+.about{
+    background-color:white;
+    padding: 70px
+}
+
+.inner-about{
+    text-align: center;
+}
+
+.about-image{
+    height: 300px;
+    width: 300px;
+}
+
+.about-detail{
+    margin-top: 40px !important;
+}
+
+
+.about-detail h2{
+    font-size: 3rem;
+    font-weight: 600;
+    text-align: center;  
+}
+
+#skill{
+    text-align: center;
+}
+
+#inner-skill{
+    margin: 3px;
+}
+
+
+
+.btn-skill{
+    margin-top: 20px;
+    height: 40px;
+    border-radius: 18px !important;
+    background-color: #80ffd4 !important;
+    border: 2px solid black !important;
+    width:fit-content;
+    padding: 7px;
+}
+
+.btn-skill:hover{
+    background-color: #333 !important ;
+    color:#80ffd4 !important;
+}
+
+.project{
+    background-color:#333;
+    padding: 50px;
+}
+
+.inner-project{
+    text-align: center;
+}
+
+.project h2{
+    font-size: 3rem;
+    font-weight: 600;
+    text-align: center; 
+    color:white; 
+}
+
+
+
+  
+
+
+  
